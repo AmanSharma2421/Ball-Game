@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>GAME</title>
+  <link rel="stylesheet" type="text/css" href="puzzle.css">
+</head>
+<body>
+  <div id="puzzle-container">
+
+    <div id="message-container">
+        <div id="message">
+            <h1>Congratulations!</h1>
+            <p>You are done</p>
+            <p id="moves"></p>
+            <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!">
+        </div>
+      </div>
+      <br>
+      <div id="menu">
+        <div class="custom-select">
+          <select id="different-select">
+            <option value="10">Easy</option>
+            <option value="15">Medium</option>
+            <option value="25">Hard</option>
+            <option value="38">Extreme</option>
+          </select>
+        </div>
+        <input id="startGameBtn" type="button" onclick="makeGame()" value="Start">
+      </div>
+      <div id="view">
+        <div id="gameContainer">
+          <canvas id="gameCanvas" class="border" height="1100" width="1100"></canvas>
+        </div>
+      </div>
+
+      <p id="instructions">Use arrow keys to move the key to the house!</p>
+
+  </div>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+
+  <scrip src="[puzzle.js]"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jamp & run</title>
+  <link rel="stylesheet" href="puzzle.css">
+</head>
+<body style="background-image: url(jungle-2.jpg); 
+            background-repeat: no-repeat;
+            background-attachment :fixed;
+            background-size:cover;">
+  <div id="ground"></div>
+  <div id="character"></div>
+  <div class="obstacles"></div>
+  <h2>Score: <span id="score">0</span> </h2>
+  <!-- <h3 style="text-align: center;"><span id="over"></span></h3> -->
+  <script src="puzzle.js"></script>
+</body>
+</html>
